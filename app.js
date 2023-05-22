@@ -9,7 +9,7 @@ const numberB = +argv[4];
 /* requerimos el módulo calculadora */
 const calculadora = require('./calculadora');
 
-/* if(operacion === "sumar"){
+if(operacion === "sumar"){
     //console.log(numberA + numberB);
     console.log(calculadora.sumar(numberA,numberB));
 }else if (operacion === "restar"){
@@ -17,4 +17,4 @@ const calculadora = require('./calculadora');
     console.log(calculadora.restar(numberA,numberB));
 } else {
     console.log("Operación no reconocida");
-} */
+}
