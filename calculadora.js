@@ -15,7 +15,12 @@ const restar = function(a,b) {
     return a - b
 }
 
+const multiplicar = function(a,b){
+    return a * b
+}
+
 module.exports = {
     sumar,
-    restar
+    restar,
+    multiplicar
 }
